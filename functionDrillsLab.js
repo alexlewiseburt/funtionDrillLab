@@ -10,6 +10,11 @@
   Call the function.
 */
 
+function helloWorld() {
+  console.log("Hello, World!");
+}
+helloWorld();
+
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -17,6 +22,8 @@
 */
 
 //CODE HERE
+
+const jsNinja = () => "I am a JavaScript ninja!";
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -26,6 +33,11 @@
 */
 
 //CODE HERE
+
+function printName(name) {
+  console.log(name);
+}
+printName("Alexandrea");
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -37,7 +49,11 @@
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+function greeting(name) {
+  name = string(name);
+  console.log("Hello, ${name}");
+}
+greeting("Alexandrea");
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -52,6 +68,14 @@
 
 //CODE HERE
 
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+    return num1;
+  } else {
+    return num2;
+  }
+};
+
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -61,6 +85,15 @@
 */
 
 //CODE HERE
+
+const add = () => (num, num2){
+  num = +num
+  num2 = +num2
+return num + num2
+}
+let sum = add(10,20)
+
+
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -75,7 +108,7 @@ const exclaim = function (str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+  console.log('expression')
 
 ////////////////// PROBLEM 8 ////////////////////
 
@@ -88,7 +121,7 @@ const exclaimTwo = (str) => {
   return str.toUpperCase() + "!!!";
 };
 
-// console.log('arrow')
+console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
@@ -96,8 +129,10 @@ const exclaimTwo = (str) => {
   Rewrite exclaimTwo to be a single line.
   Call your new function exclaimThree
 
+  
   Brownie points if you use a template string
 */
+const exclaimThree = str => `${str.toUpperCase()}!!!`
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -111,7 +146,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+console.log('declaration')
 // console.log('expression')
 
 ////////////////// PROBLEM 10 ////////////////////
